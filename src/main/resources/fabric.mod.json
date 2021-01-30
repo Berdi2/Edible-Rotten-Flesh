@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "ediblerottenflesh",
+  "version": "${version}",
+
+  "name": "Edible Rotten Flesh",
+  "description": "Adds the ability to make rotten flesh better for your body!",
+  "authors": [
+    "Berdi2"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/ediblerottenflesh/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "berdi2.edible.rotten.flesh.EdibleRottenFlesh"
+    ]
+  },
+  "mixins": [
+    "ediblerottenflesh.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
